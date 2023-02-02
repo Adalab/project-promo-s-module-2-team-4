@@ -1,15 +1,36 @@
-// Esta es la variable que usaremos como tamaño por defecto
-$defaultFontSize: 16;
-
-// Estos son los tamaños para las media-queries
-
 $breakpoint-tablet: 768px;
 $breakpoint-desktop: 1024px;
 
-// fonts
-// $font-main: 'Roboto', sans-serif;
 
-// colors
-// $color-text: #000;
-// $color-title: #000;
-// $color-background: #999;
+$merriweather_24: 900 24px 'Merriweather', serif;
+$merriweather_22: 900 22px 'Merriweather', serif;
+$open_sans_regular_12: 400 12px 'Open Sans', sans-serif;
+$open_sans_regular_14: 400 14px 'Open Sans', sans-serif;
+$open_sans_regular_16: 400 16px 'Open Sans', sans-serif;
+$open_sans_semi_12: 600 12px 'Open Sans', sans-serif;
+$open_sans_semi_16: 600 16px 'Open Sans', sans-serif;
+$open_sans_semi_18: 600 18px 'Open Sans', sans-serif;
+$montserrat_16: 400 16px 'Montserrat', sans-serif;
+
+
+$light-khaki: #F9F4DC;
+$black: #000000;
+$tomato: #E95626;
+$dried-blood: #420101;
+$rusty-red: #BD1010;
+$faded-orange: #EAB052;
+$light-grey-blue: #A0C0CF;
+$azure: #00A0F5;
+$white: #D5D5D5;
+$white-two: #FFFFFF;
+$white-three: #D8D8D8;
+$white-four: #F5F5F5;
+$gunmetal: #54585A;
+$brownish-grey: #6B6B6B;
+$slate: #3E5B65;
+$hospital-green: #A2DEAF;
+$silver: #BFCDD0;
+$pale-grey: #DDE9ED;
+$dark-green-blue: #114E4E;
+$dirty-blue: #438792;
+$dull-orange: #E17334;
