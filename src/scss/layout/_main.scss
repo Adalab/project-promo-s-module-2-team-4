@@ -1,1 +1,29 @@
 @import 'layout/create-card-main-form-share';
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+        .title{
+            width: 223px;
+            height: 24px;
+            margin: 35.4px 22.9px 0px 22.1px;
+            font-family: $merriweather_24;
+            font-size: 19.2px;
+            font-weight: 900;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: $dull-orange;
+        }
+
+            .span-header{
+
+                width: 100%;
+                
+
+            }
+
+}
