@@ -1,7 +1,9 @@
 .header{
 
     .images-header {
-        width: 100%;
-        /*background-image: url(../images/logo-awesome-profile-cards-svg);*/
+        width: 100vw;
+        height: 450px;
+        background-image: url(../../assets/images/logo-awesome-profile-cards.svg);
+        background-repeat: no-repeat;
     }
 }
