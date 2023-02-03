@@ -1,4 +1,27 @@
 .section-preview{
-    width: 320px;
-    background-color: red;
+   
+    height: 457px;
+    background-color: $silver;
+    /*agregar el degrading al background-color*/
+}
+.button-reset{
+    width: 75px;
+    height: 30px;
+    border: solid rebeccapurple;
+    border-radius: 15px;
+    /*color font: gunmetal/#54585a - cambiar a este color luego de hacerle variable a ese color */
+}
+
+.card-content{
+   background-color: $white-two; 
+   width: 240px;
+   height: 330px;
+}
+.card-image{
+    width: 240px;
+    height: 200px;
+}
+.card-icons{
+    display: flex;
+    
 }
