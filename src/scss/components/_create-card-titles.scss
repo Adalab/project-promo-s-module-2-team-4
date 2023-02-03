@@ -1,13 +1,12 @@
 .fieldset--header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 10px 20px 7px 20px;
 
     &__wrap {
     display: flex;
-    align-items: center;
     }
+    
     &__icon{
         font-size: 18px;
         color:$dull-orange;
