@@ -1,9 +1,22 @@
 .header{
 
+    width: 100vw;
+    height: 85vh;
+
+    .hero{
+       width: 320px;
+       height: 350px;
+    }
+
     .images-header {
         width: 100vw;
-        height: 450px;
+        height: 100vh;
         background-image: url(../../assets/images/logo-awesome-profile-cards.svg);
         background-repeat: no-repeat;
+        background-position: 50%;
+        object-fit: contain;
+        position: relative;
+        margin-top: 20px;
+        
     }
 }
