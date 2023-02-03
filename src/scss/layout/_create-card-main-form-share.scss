@@ -1,0 +1,50 @@
+.share {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.share--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px 20px 0 20px;
+}
+
+.share--button__card {
+    margin: 30px 0;
+    color: $white-two;
+    background-color: $white;
+}
+
+.share--header__title {
+    display: flex;
+
+}
+.share--header__legend {
+    font: $open_sans_semi_18;
+    color: $gunmetal;
+}
+
+.share--header__icon {
+    font-size: 18px;
+    color: $dull-orange;
+}
+
+.share--header__arrow {
+    font-size: 18px;
+    color: $gunmetal;
+}
+
+.share--card__hidden {
+    margin-bottom: 30px;
+    border-top: 1px;
+    border-bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
