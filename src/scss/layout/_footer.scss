@@ -1,2 +1,34 @@
 .footer {
+    width: 100vw;
+    height: 25vh;
+    padding: 2rem 2rem 0 2rem;
+    background-color: $white-two;
+    position: absolute;
+    margin-top: 4rem;
+
+
+
+
+    .span_footer{
+        margin: 18px 61px 72px 61px;
+        opacity: 0.5;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        color: $brownish-grey;
+    }
+        .img_footer{
+            width: 100%;
+            height: 100px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin: 15px 47px 0 48px;
+            
+        }
+    
 }
+
