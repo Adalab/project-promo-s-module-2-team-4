@@ -1,39 +1,25 @@
-.fieldset--header {
+.legend {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 10px 0 7px 0;
 
-    &__wrap {
+    &--wrap {
     display: flex;
     }
     
-    &__icon{
+    &--icon{
         font-size: 18px;
         color:$dull-orange;
         margin-right: 10px;
     }
-    &__title {
+    &--title {
     font: $open_sans_semi_18;
     color: $gunmetal;
     text-transform: uppercase;
     }
-    &__arrow{
+    &--arrow{
         font-size: 18px;
         color: $gunmetal;
     }
-}
-
-
-
-
-
-
-.share--header__icon {
-    font-size: 18px;
-    color: orange;
-}
-
-.share--header__arrow {
-    font-size: 18px;
-    color: $gunmetal;
 }
