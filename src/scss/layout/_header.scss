@@ -4,9 +4,7 @@
     height: 100vh;
 
     .hero{
-       /*width: 320px;
-       height: 130px;*/
-       padding: 120px 0 35px 0;
+       padding: 120px 0 0 0;
 
         .images-header {
             width: 100vw;
@@ -15,7 +13,6 @@
             background-repeat: no-repeat;
             background-size: contain;
             background-position: 50%;
-            position: absolute;
         }
     }
 }
