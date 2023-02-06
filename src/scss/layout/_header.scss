@@ -4,19 +4,18 @@
     height: 100vh;
 
     .hero{
-       width: 320px;
-       height: 130px;
-    }
+       /*width: 320px;
+       height: 130px;*/
+       padding: 120px 0 35px 0;
 
-    .images-header {
-        width: 100vw;
-        height: 63px;
-        background-image: url(../../assets/images/logo-awesome-profile-cards.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: 50%;
-        position: absolute;
-        margin-top: 7rem;
-        
+        .images-header {
+            width: 100vw;
+            height: 63px;
+            background-image: url(../../assets/images/logo-awesome-profile-cards.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: 50%;
+            position: absolute;
+        }
     }
 }

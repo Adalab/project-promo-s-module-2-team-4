@@ -1,39 +1,29 @@
 .main {
-    width: 100%;
+    width: 100vw;
     height: 320px;
-    margin-top: -30rem;
-    padding: 2rem 2rem 2rem 2rem;
+    margin-top: -40rem;
     display: flex;
     flex-direction: column;
 
 
 
         .title{
-            width: 320px;
+            width: 100vw;
             height: 24px;
-            margin: 30px 20px 15px 20px;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-family: 'Merriweather', serif;
-            font-size: 24px;
-            font-weight: 900;
-            font-stretch: normal;
-            font-style: normal;
+            font: $merriweather_19;
             line-height: normal;
             letter-spacing: normal;
             color: $dull-orange;
         }
 
             .span-header{
-                width: 265px;
+                width: 100vw;
                 height: 38.5px;
-                margin: 5px 25px 18px 25px;
-                font-family: 'Open Sans', sans-serif;
-                font-size: 12.8px;
-                font-weight: normal;
-                font-stretch: normal;
-                font-style: normal;
+                padding: 0 0 0 0;
+                font: $open_sans_regular_12;
                 line-height: normal;
                 letter-spacing: normal;
                 text-align: center;
@@ -42,9 +32,8 @@
 
             .section_main{
 
-                width: 269px;
+                width: 100vw;
                 height: 74px;
-                padding: 10px 0 10px 30px;
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
                 grid-template-rows: 1fr;

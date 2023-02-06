@@ -7,16 +7,12 @@
     margin-top: 4rem;
 
 
-
+}
 
     .span_footer{
         margin: 18px 61px 72px 61px;
         opacity: 0.5;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
+        font: $open_sans_regular_14;
         line-height: 1.43;
         letter-spacing: normal;
         color: $brownish-grey;
@@ -30,5 +26,5 @@
             
         }
     
-}
+
 
