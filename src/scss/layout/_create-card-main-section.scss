@@ -4,10 +4,11 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
-    height: 457px;
+    width: 100%; 
     background-image: linear-gradient( $silver,$pale-grey);
     padding-bottom: 10px;
 
+    /*ponerle padding a cada elemeneto de este container*/
     
     /* ponerle padding padding: 38px 35px 40px 45px; a contenedor para que el card-content quuede separadp*???*/
 }
@@ -20,6 +21,7 @@
     border-radius: 15px;
     color: $gunmetal;
     background-color: $silver;
+    /*ponerle padding*/
 }
 
 .card-content{
@@ -28,7 +30,6 @@
     justify-content: space-evenly;
     background-color: $white-two; 
     width: 240px;
-   /*dejar en 75% o cambiar a px el width, ;*/
      height: 330px;
      border: solid 1px $pale-grey;
      border-radius: 2px;
@@ -58,7 +59,7 @@
     padding-left: 15px;
 }
 .card-image{
-    /*width: 240px;*/
+    /*width: 240px; ponerle 100%*/
     height: 200px;
 }
 .ul-card-icons{
