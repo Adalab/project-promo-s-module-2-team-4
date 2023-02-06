@@ -3,12 +3,12 @@
 @import 'core/mixins';
 @import 'core/animations';
 @import 'pages/index';
-@import 'layout/create-card-main-section';
-@import 'components/create-card-titles';
-@import 'layout/create-card-main-form-design';
-@import 'layout/create-card-main-form-fill';
-@import 'layout/create-card-main-form-share';
-@import 'layout/create-card-header';
+@import 'layout/cc-section';
+@import 'components/cc-legends';
+@import 'layout/cc-design';
+@import 'layout/cc-fill';
+@import 'layout/cc-share';
+@import 'layout/cc-header';
 @import 'layout/header';
 @import 'layout/main';
 @import 'layout/footer';
@@ -26,5 +26,12 @@ sans-serif;*/
 
 .body {
     width: 100vw;
+    background-color: $white-four;
+}
+
+.container {
+    margin: 0 20px 0 20px;
+}
+.form--background {
     background-color: $white-four;
 }
