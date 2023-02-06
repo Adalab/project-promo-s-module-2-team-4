@@ -8,20 +8,24 @@
     background-image: linear-gradient( $silver,$pale-grey);
     padding-bottom: 10px;
 
-    /*ponerle padding a cada elemeneto de este container*/
-    
-    /* ponerle padding padding: 38px 35px 40px 45px; a contenedor para que el card-content quuede separadp*???*/
+    @include tablet {
+        width: 329px;
+        height: 812px;
+        border-radius: 6px;
+    }
 }
+
 .button-reset{
-    font-family: $open_sans_regular_12;
-    /*no aplica el font-fammily*/
+    font: $open_sans_regular_12;
     width: 75px;
     height: 30px;
     border: solid 1px $white-two;
     border-radius: 15px;
     color: $gunmetal;
     background-color: $silver;
-    /*ponerle padding*/
+    margin-top: 35px;
+    margin-bottom: 20px;
+    
 }
 
 .card-content{
@@ -30,11 +34,12 @@
     justify-content: space-evenly;
     background-color: $white-two; 
     width: 240px;
-     height: 330px;
-     border: solid 1px $pale-grey;
-     border-radius: 2px;
-     box-shadow: 0 1px 10px;
-   /*dejar el box-shadow asi o cambiar? */
+    height: 330px;
+    border: solid 1px $pale-grey;
+    border-radius: 2px;
+    box-shadow: 0 1px 10px;
+    margin-bottom: 40px;
+  
 }
 /*.card-blue-rectangle{
     background-color: $dirty-blue;
@@ -42,24 +47,23 @@
     height: 42px;
 }*/
 .card-title{
-    /*como cambiar a monserrat 18px, pq no aplica la variable monserrat*/
-    font-family: $montserrat_16;
+    font: $montserrat_16;
     font-size: 18px;
     font-weight: bold;
     color: $dark-green-blue;
     padding-left: 15px;
-    padding-top: 10px;
+    
+   
 
 }
   
 .card-paragraph{
-    /*como cambiar a monserrat 18px, pq no aplica la variable monserrat*/
-    font-family: $montserrat_16;
+    font: $montserrat_16;
     color: $gunmetal;
     padding-left: 15px;
 }
 .card-image{
-    /*width: 240px; ponerle 100%*/
+    width: 100%;
     height: 200px;
 }
 .ul-card-icons{
@@ -76,6 +80,7 @@
 .li-card-icons{
     border: solid 2px $hospital-green;
     border-radius: 50px;
-    padding: 2px 5px;
+    padding: 5px 7px;
+    /*porque estan los iconos tan pequenos?*/
   
 }
