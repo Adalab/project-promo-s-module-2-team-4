@@ -1,0 +1,97 @@
+.container{
+    margin: 0 20px 0 20px;
+}
+.design {
+    background-color: $white-four;
+    /*width: 100vw;*/
+ 
+    &__content {
+        padding: 22px 0 30px 20px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        &-legend {
+            text-transform: uppercase;
+            font: $open_sans_regular_14;
+        }
+
+        &-color {
+            width: 120px;
+        }
+    }
+}
+
+.input_color {
+    margin-right: 10px;
+}
+
+.box {
+    width: 30px;
+    height: 25px;
+    display: inline-block;
+}
+
+.design__color-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 45px;
+    align-items: center;
+}
+
+.color_1_1 {
+    background-color: $dark-green-blue;
+}
+
+.color_1_2 {
+    background-color: $dirty-blue;
+}
+
+.color_1_3 {
+    background-color: $hospital-green;
+}
+
+.design__color-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 45px;
+    align-items: center;
+}
+.color_2_1 {
+    background-color: $dried-blood;
+}
+
+.color_2_2 {
+    background-color: $rusty-red;
+}
+
+.color_2_3 {
+    background-color: $tomato;
+}
+
+.design__color-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 45px;
+    align-items: center;
+}
+
+.color_3_1 {
+    background-color: $slate;
+}
+
+.color_3_2 {
+    background-color: $faded-orange;
+}
+
+.color_3_3 {
+    background-color: $light-grey-blue;
+}
+
+.fieldset__line{
+    height: 1px;
+    background-color: $white-three;
+}
+
+
+
