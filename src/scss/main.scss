@@ -3,14 +3,17 @@
 @import 'core/mixins';
 @import 'core/animations';
 @import 'pages/index';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/cc-header';
 @import 'layout/cc-section';
 @import 'components/cc-legends';
 @import 'layout/cc-design';
 @import 'layout/cc-fill';
 @import 'layout/cc-share';
-@import 'layout/cc-header';
-@import 'layout/header';
-@import 'layout/main';
+
+
+
 @import 'layout/footer';
 
 /*font-family: 'Merriweather',
