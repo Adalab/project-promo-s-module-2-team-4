@@ -1,27 +1,80 @@
 .section-preview{
-   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
     height: 457px;
-    background-color: $silver;
-    /*agregar el degrading al background-color*/
+    background-image: linear-gradient( $silver,$pale-grey);
+    padding-bottom: 10px;
+
+    
+    /* ponerle padding padding: 38px 35px 40px 45px; a contenedor para que el card-content quuede separadp*???*/
 }
 .button-reset{
+    font-family: $open_sans_regular_12;
+    /*no aplica el font-fammily*/
     width: 75px;
     height: 30px;
-    border: solid rebeccapurple;
+    border: solid 1px $white-two;
     border-radius: 15px;
-    /*color font: gunmetal/#54585a - cambiar a este color luego de hacerle variable a ese color */
+    color: $gunmetal;
+    background-color: $silver;
 }
 
 .card-content{
-   background-color: $white-two; 
-   width: 240px;
-   height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: $white-two; 
+    width: 240px;
+   /*dejar en 75% o cambiar a px el width, ;*/
+     height: 330px;
+     border: solid 1px $pale-grey;
+     border-radius: 2px;
+     box-shadow: 0 1px 10px;
+   /*dejar el box-shadow asi o cambiar? */
+}
+/*.card-blue-rectangle{
+    background-color: $dirty-blue;
+    width: 5px;
+    height: 42px;
+}*/
+.card-title{
+    /*como cambiar a monserrat 18px, pq no aplica la variable monserrat*/
+    font-family: $montserrat_16;
+    font-size: 18px;
+    font-weight: bold;
+    color: $dark-green-blue;
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+  
+.card-paragraph{
+    /*como cambiar a monserrat 18px, pq no aplica la variable monserrat*/
+    font-family: $montserrat_16;
+    color: $gunmetal;
+    padding-left: 15px;
 }
 .card-image{
-    width: 240px;
+    /*width: 240px;*/
     height: 200px;
 }
-.card-icons{
+.ul-card-icons{
     display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    /*decidir: juustify contes; space around o evenly
+    cambiar en html a icononos correctos*/
+    padding-right: 60px;
+    padding-left: 10px;
     
+}
+
+.li-card-icons{
+    border: solid 2px $hospital-green;
+    border-radius: 50px;
+    padding: 2px 5px;
+  
 }
