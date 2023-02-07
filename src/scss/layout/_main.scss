@@ -8,7 +8,8 @@
 
     @media (min-width:768px) {
             width: 768px;
-            height: 963px;
+            height: 508px;
+            padding: 120px 174px 0 0;
         }
 
         .title{
@@ -19,6 +20,12 @@
             letter-spacing: normal;
             color: $dull-orange;
         }
+            @media (min-width:768px){
+                font: $merriweather_24;
+                font-size: 30px;
+            }
+
+
 
             .span-header{
                 width: 265px;
