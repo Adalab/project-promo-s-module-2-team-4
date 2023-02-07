@@ -10,7 +10,13 @@
     position: absolute;
     z-index: 1;
 
-
+    @media (min-width:768px) {
+        width: 768px;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+    }
 
 
     .span_footer{
@@ -20,12 +26,18 @@
         line-height: 1.43;
         letter-spacing: normal;
         color: $brownish-grey;
-    
-       
+    }
+
+    @media (min-width:768px) {
+        padding: 18px 0 22px 41px;
     }
 
     .img{
         width: 103px;            
+    }
+
+    @media (min-width:768px) {
+        padding: 10px 40px 10px 0;
     }
 }
 

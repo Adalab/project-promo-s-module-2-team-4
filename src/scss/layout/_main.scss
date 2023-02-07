@@ -1,15 +1,18 @@
 .main {
     width: 100vw;
-    height: 320px;
-    margin-top: -47rem;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-
+    @media (min-width:768px) {
+            width: 768px;
+            height: 963px;
+        }
 
         .title{
+            padding: 60px 0 0 0;
             font: $merriweather_22;
             font-size: 19.2px;
             line-height: normal;
@@ -27,20 +30,19 @@
                 color: $dark-green-blue;
             }
 
-            .section_main{
-
+            
+            .nav_div{
                 width: 268px;
-                height: 74px;
-                padding: 1.8rem 0 0 0;
+                height: 73.8px;
+                margin-top: 40px;
                 border: solid 1.6px $dull-orange;
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-template-rows: 1fr;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
             }
 
             .ungroup{
-                grid-column: 1/2;
-                margin: 20px 15px 15px 15px;
+                margin: 20px 25px 15px 15px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -58,8 +60,7 @@
             }
                 
             .keyboard{
-                grid-column: 2/3;
-                margin: 20px 15px 15px 15px;
+                margin: 20px 25px 15px 15px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -79,10 +80,9 @@
             }
 
             .share{
-                grid-column: 3/4;
                 width: 32px;
                 height: 26px;
-                margin: 26px 15px 15px 15px;
+                margin: 26px 25px 15px 15px;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -100,6 +100,12 @@
                 color: $gunmetal;
             }
 
+
+            .buttom_main{
+                position: absolute;
+                padding: 450px 0 0 0;
+                
+            }
             .bnt{
                 width: 129px;
                 height: 42px;
@@ -108,11 +114,12 @@
                 justify-content: center;
                 align-items: center;
                 font: $open_sans_semi_16;
-                margin-top: 38.6px;
                 border-radius: 21px;
+                border-style: none;
                 color: $white-two;
                 background-color: $dirty-blue;
                 text-transform: uppercase;
+                
             }
 
             .enlace-bnt{

@@ -29,7 +29,6 @@ sans-serif;*/
 
 .body {
     width: 100vw;
-    /*padding: 0 20px 0 20px;*/
     background-color: $white-four;
 }
 
@@ -49,5 +48,8 @@ sans-serif;*/
         display: flex;
         flex-direction: row-reverse;
     }
+}
+.collapsed {
+    display: none;
 }
 

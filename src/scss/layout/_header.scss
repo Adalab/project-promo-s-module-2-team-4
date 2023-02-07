@@ -1,10 +1,18 @@
 .header{
 
     width: 100vw;
-    height: 100vh;
+    height: 160px;
+
+        @media (min-width:768px){
+            width: 768px;
+            height: 0;
+            position: absolute;
+            padding: 20rem 0 0 0;
+
+        }
 
     .hero{
-       padding: 120px 0 0 0;
+       padding: 95px 0 0 0;
 
         .images-header {
             width: 100vw;
@@ -13,6 +21,15 @@
             background-repeat: no-repeat;
             background-size: contain;
             background-position: 50%;
+        }
+
+        .images-header{
+        
+            @media (min-width:768px){
+                width: 419px;
+                height: 105px;
+                padding: 0 174px 0 175px;
+            }
         }
     }
 }
