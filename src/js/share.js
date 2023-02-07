@@ -2,19 +2,19 @@
 const buttonShare = document.querySelector(".js-button__share");
 const buttonTwitter = document.querySelector(".js-button__twitter");
 
-function showItems() {
-  buttonTwitter.classList.remove("collapsed");
+function showItems(item) {
+  item.classList.remove("collapsed");
 }
-function hideItems() {
-  buttonTwitter.classList.add("collapsed");
+function hideItems(item) {
+  item.classList.add("collapsed");
 }
 
 function handleClickItems(event) {
   event.preventDefault();
   if (buttonTwitter.classList.contains("collapsed")) {
-    showItems();
+    showItems(buttonTwitter);
   } else {
-    hideItems();
+    hideItems(buttonTwitter);
   }
 }
 buttonShare.addEventListener("click", handleClickItems);
