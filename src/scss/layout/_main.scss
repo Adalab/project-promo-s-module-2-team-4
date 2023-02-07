@@ -1,5 +1,5 @@
 .main {
-    width: 100vw;
+    width: 100%;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
     @media (min-width:768px) {
             width: 768px;
             height: 508px;
-            padding: 120px 174px 0 0;
+            padding: 120px 0 0 0;
         }
 
         .title{
@@ -19,12 +19,12 @@
             line-height: normal;
             letter-spacing: normal;
             color: $dull-orange;
-        }
+        
             @media (min-width:768px){
                 font: $merriweather_24;
-                font-size: 30px;
+                padding: 150px 0 0 0;
             }
-
+        }
 
 
             .span-header{
@@ -35,6 +35,12 @@
                 letter-spacing: normal;
                 text-align: center;
                 color: $dark-green-blue;
+
+                @media (min-width:768px){
+                    font: $open_sans_regular_16;
+                    width: 331px;
+                    height: 48px;
+                }
             }
 
             
@@ -46,6 +52,12 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
+
+                @media (min-width:768px){
+                    width: 325px;
+                    height: 86px;
+                }
+
             }
 
             .ungroup{
@@ -55,6 +67,12 @@
                 justify-content: center;
                 font-size: 22.4px;
                 color:$dull-orange;
+
+                @media (min-width:768px){
+                    font-size: 28px;
+                    margin: 20px 40px 15px 15px;
+                }
+
             }
 
             .title_main{
@@ -64,6 +82,11 @@
                 font: $open_sans_regular_12;
                 font-size: 12.8px;
                 color: $gunmetal;
+
+                @media (min-width:768px){
+                    font-size: 16px;
+                    margin-left: -0.9rem;
+                }
             }
                 
             .keyboard{
@@ -73,6 +96,11 @@
                 justify-content: center;
                 font-size: 22.4px;
                 color:$dull-orange;
+
+                @media (min-width:768px){
+                    font-size: 28px;
+                    margin: 20px 40px 15px 15px;
+                }
             }
 
             .title_main2{
@@ -84,6 +112,11 @@
                 font-size: 12.8px;
                 color: $gunmetal;
                 color: $gunmetal;
+
+                @media (min-width:768px){
+                    font-size: 16px;
+                    margin-left: -1.2rem;
+                }
             }
 
             .share{
@@ -95,6 +128,11 @@
                 justify-content: center;
                 font-size: 22.4px;
                 color:$dull-orange;
+
+                @media (min-width:768px){
+                    font-size: 28px;
+                    margin: 31px 30px 15px 15px;
+                }
             }
 
             .title_main3{
@@ -105,12 +143,21 @@
                 font: $open_sans_regular_12;
                 font-size: 12.8px;
                 color: $gunmetal;
+
+                @media (min-width:768px){
+                    font-size: 16px;
+                    margin-left: -1.8rem;
+                }
             }
 
 
             .buttom_main{
                 position: absolute;
                 padding: 450px 0 0 0;
+
+                @media (min-width:768px){
+                    margin-bottom: -30rem;
+                }
                 
             }
             .bnt{
@@ -126,7 +173,7 @@
                 color: $white-two;
                 background-color: $dirty-blue;
                 text-transform: uppercase;
-                
+ 
             }
 
             .enlace-bnt{
