@@ -14,7 +14,7 @@ function handleClickItems(event) {
   if (buttonTwitter.classList.contains('collapsed')) {
     showItems();
   } else {
-    hideItems();
+    hideItems(buttonTwitter);
   }
 }
 buttonShare.addEventListener('click', handleClickItems);

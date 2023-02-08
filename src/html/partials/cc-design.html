@@ -1,11 +1,18 @@
 <fieldset class="design">
-  <include
+  <!-- <include
     src="./cc-legends.html"
     icon="fa-regular fa-object-ungroup"
     title="Diseña"
   >
-  </include>
-  <div class="design__content">
+  </include> -->
+  <legend class="legend js-legend__design">
+    <div class="legend--wrap">
+      <i class="fa-regular fa-object-ungroup legend--icon"></i>
+      <h4 class="legend--title">Diseña</h4>
+    </div>
+    <i class="fa-solid fa-angle-down legend--arrow"></i>
+  </legend>
+  <div class="design__content js-content__design">
     <legend class="design__content-legend">colores</legend>
     <div class="design__content-color">
       <div class="design__color-1">
@@ -42,6 +49,28 @@
         <div class="color_3_1 box"></div>
         <div class="color_3_2 box"></div>
         <div class="color_3_3 box"></div>
+      </div>
+
+      <div class="design__color-4">
+        <input 
+        type="radio" 
+        name="design_color" 
+        value="color_4" 
+        class="input_color" />
+        <div class="color_4_1 box"></div>
+        <div class="color_4_2 box"></div>
+        <div class="color_4_3 box"></div>
+      </div>
+      
+      <div class="design__color-5">
+        <input 
+        type="radio" 
+        name="design_color" 
+        value="color_5" 
+        class="input_color" />
+        <div class="color_5_1 box"></div>
+        <div class="color_5_2 box"></div>
+        <div class="color_5_3 box"></div>
       </div>
     </div>
   </div>

@@ -19,6 +19,8 @@
 
 .input_color {
     margin-right: 10px;
+    width: 17px;
+    height: 17px;
 }
 
 .box {
@@ -81,6 +83,44 @@
 
 .color_3_3 {
     background-color: $light-grey-blue;
+}
+
+.design__color-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 45px;
+    align-items: center;
+}
+
+.color_4_1 {
+    background-color: $english-lavender;
+}
+
+.color_4_2 {
+    background-color: $pastel-green;
+}
+
+.color_4_3 {
+    background-color: $light-salmon-pink;
+}
+
+.design__color-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 45px;
+    align-items: center;
+}
+
+.color_5_1 {
+    background-color: $violet-pink;
+}
+
+.color_5_2 {
+    background-color: $salmon;
+}
+
+.color_5_3 {
+    background-color: $banana;
 }
 
 .fieldset__line{
