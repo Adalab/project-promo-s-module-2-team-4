@@ -49,6 +49,14 @@ sans-serif;*/
         flex-direction: row-reverse;
     }
 }
+
+.form--background{
+    
+    @include tablet{
+        min-width: 400px;
+        flex-grow: 1;
+    }
+}
 .collapsed {
     display: none;
 }
