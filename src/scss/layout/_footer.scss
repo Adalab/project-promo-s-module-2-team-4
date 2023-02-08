@@ -1,4 +1,4 @@
-/*.footer {
+.footer {
     width: 100%;
     height: 110px;
     background-color: $white-two;
@@ -6,8 +6,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: 0;
     border-top: solid 1px $white-three;
 
     @media (min-width:768px) {
@@ -43,4 +41,4 @@
         }
     }
 }
-*/
+

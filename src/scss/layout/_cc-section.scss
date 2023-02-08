@@ -10,7 +10,8 @@
     padding-bottom: 10px;
 
     @include tablet {
-        width: 329px;
+        width: 40%;
+        flex-grow: 1;
         height: 812px;
         border-radius: 6px;
     }

@@ -158,7 +158,6 @@
         
     }
         .bnt{
-            width: 129px;
             height: 42px;
             font: $open_sans_semi_16;
             border-radius: 21px;
@@ -166,11 +165,12 @@
             color: $white-two;
             background-color: $dirty-blue;
             text-transform: uppercase;
-
+            text-decoration: none;
+            padding: 10px 20px;
         }
 
         .enlace-bnt{
-            text-decoration: none;
+            
         }
 }
 

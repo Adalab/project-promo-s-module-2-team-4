@@ -51,10 +51,12 @@ sans-serif;*/
 }
 
 .form--background{
+    padding-top: 17px;
+    width: 100%;
     
     @include tablet{
-        min-width: 400px;
-        flex-grow: 1;
+        width: 60%;
+        max-width: 400px;
     }
 }
 .collapsed {

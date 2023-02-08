@@ -2,18 +2,19 @@
 .fill-form {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
-    
+    padding-bottom: 30px;
 
     &-label{
         font: $open_sans_regular_14;
+        margin-top: 20px;
+        color: $dark-green-blue;
     }
     
     &-input {
-        width: 100%;
+        width: 98.5%;
+        height: 30px;
         background-color: transparent;
         border: 1px solid $hospital-green;
-
         margin-top: 0.5rem;
         margin-bottom: 1rem;
         display: flex;
