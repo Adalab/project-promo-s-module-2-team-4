@@ -17,6 +17,11 @@
         justify-content:space-around;
     }
 
+    @include desktop{
+
+        position: static;
+    }
+
     .span_footer{
         padding: 2rem 6.1rem 1.2rem 6.1rem;
         opacity: 0.5;
