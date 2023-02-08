@@ -80,9 +80,6 @@
     .nav-card-icons {
             display: flex;
             justify-content: space-around;
-            /*align-items: baseline;*/
-            /*decidir: juustify contes; space around o evenly
-            cambiar en html a icononos correctos*/
             padding-right: 60px;
             padding-left: 10px;
     
@@ -94,7 +91,6 @@
                 border-radius: 50px;
                 color: $dark-green-blue;
                 text-align: center;
-                /*padding: 5px 7px;*/
     
                 .icon-preview {
                     padding-top: 7px;
