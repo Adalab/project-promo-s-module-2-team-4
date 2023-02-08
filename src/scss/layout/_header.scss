@@ -1,34 +1,28 @@
 .header{
-
     width: 100vw;
-    height: 160px;
+    padding-top: 95px;
+    padding-bottom: 35.4px;
+    
+    @media (min-width:768px){
+        padding-top: 352.5px;
+    }
 
+    @include desktop{
+        padding-top: 500px;
+    }
+
+    .images-header {
+        width: 100vw;
+        height: 63px;
+        background-image: url(../../assets/images/logo-awesome-profile-cards.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50%;
+    
         @media (min-width:768px){
-            width: 100vw;
-            position: absolute;
-            padding: 10rem 0 0 0;
-
-        }
-
-    .hero{
-       padding: 95px 0 0 0;
-
-        .images-header {
-            width: 100vw;
-            height: 63px;
-            background-image: url(../../assets/images/logo-awesome-profile-cards.svg);
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-position: 50%;
-        }
-
-        .images-header{
-        
-            @media (min-width:768px){
-                width: 419px;
-                height: 105px;
-                padding: 0 174px 0 175px;
-            }
+            width: 419px;
+            height: 105px;
+            margin: 0 auto;
         }
     }
 }
