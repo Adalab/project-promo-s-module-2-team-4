@@ -13,10 +13,14 @@
         width: 100%;
         background-color: transparent;
         border: 1px solid $hospital-green;
+
         margin-top: 0.5rem;
         margin-bottom: 1rem;
         display: flex;
         flex-direction: row;    
+    }
+    &-input::placeholder{
+        color: $pinkish-grey;
     }
 }
 .image-container {
