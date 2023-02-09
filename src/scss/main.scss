@@ -30,6 +30,13 @@ sans-serif;*/
 .body {
     width: 100vw;
     background-color: $white-four;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 130px 1fr 110px;
+
+    @include tablet{
+        grid-template-rows: 455px 1fr 60px;
+    }
 }
 
 .container {
