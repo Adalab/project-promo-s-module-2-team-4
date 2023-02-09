@@ -1,9 +1,17 @@
 <fieldset>
 
-  <include src="./cc-legends.html" icon="fa-regular fa-keyboard" title="Rellena">
-  </include>
+  <!-- <include js-class="js-legend__fill" src="./cc-legends.html" icon="fa-regular fa-keyboard" title="Rellena">
+  </include> -->
 
-  <div class="fill-form" action="">
+  <legend class="legend js-legend__fill">
+    <div class="legend--wrap">
+      <i class="fa-regular fa-keyboard legend--icon"></i>
+      <h4 class="legend--title">Rellena</h4>
+    </div>
+    <i class="fa-solid fa-angle-down legend--arrow"></i>
+  </legend>
+
+  <div class="fill-form js-content__fill collapsed" action="">
     <label for="fullName" class="fill-form-label">Nombre completo</label>
     <input class="fill-form-input" id="fullName" type="text" name="fullName" placeholder="Ej: Sally Jill" />
 

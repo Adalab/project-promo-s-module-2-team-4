@@ -1,22 +1,19 @@
 'use strict';
-const buttonShare = document.querySelector('.js-button__share');
-const buttonTwitter = document.querySelector('.js-button__twitter');
 
-function showItems() {
-  buttonTwitter.classList.remove('collapsed');
+
+
+function showItems(item) {
+  item.classList.remove('collapsed');
 }
-function hideItems() {
-  buttonTwitter.classList.add('collapsed');
+function hideItems(item) {
+  item.classList.add('collapsed');
 }
 
 function handleClickItems(event) {
   event.preventDefault();
-  if (buttonTwitter.classList.contains('collapsed')) {
-    showItems();
-  } else {
-    hideItems(buttonTwitter);
-  }
+  showItems(divTwitter);
+  buttonShare.classList.add('button--share__off');
 }
-buttonShare.addEventListener('click', handleClickItems);
 
-//
+
+buttonShare.addEventListener('click', handleClickItems);

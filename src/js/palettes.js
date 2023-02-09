@@ -1,17 +1,5 @@
 'use strict';
 
-const previewColor = document.querySelector('.js-palette');
-
-const inputColorOne = document.querySelector('.js-color1');
-
-const inputColorTwo = document.querySelector('.js-color2');
-
-const inputColorThree = document.querySelector('.js-color3');
-
-const inputColorFour = document.querySelector('.js-color4');
-
-const inputColorFive = document.querySelector('.js-color5');
-
 function selectColor(palette) {
   previewColor.classList.remove('palette1');
   previewColor.classList.remove('palette2');
