@@ -4,9 +4,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*min-height: calc( 100vh - 240px );*/
 
     @media (min-width:768px) {
         padding-top: 31px;
+        
     }
 
     .title{
