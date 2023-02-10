@@ -20,6 +20,7 @@
 
         @include tablet{ 
             font: $merriweather_24;
+            padding-top: 31px;
         }
     }
 
@@ -95,15 +96,12 @@
         padding-top: 38.6px;
 
             @media (min-width:768px){
-                padding-top: 200px;
+                padding-top: 150px;
+                padding-bottom: 40px;
             }
-            
-            
-            
             @include desktop{
                 
             }
-        
     }
         .bnt{
             height: 42px;

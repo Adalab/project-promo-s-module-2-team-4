@@ -1,22 +1,22 @@
 <fieldset>
 
-  <!-- <include js-class="js-legend__fill" src="./cc-legends.html" icon="fa-regular fa-keyboard" title="Rellena">
-  </include> -->
-
   <legend class="legend js-legend__fill">
     <div class="legend--wrap">
       <i class="fa-regular fa-keyboard legend--icon"></i>
       <h4 class="legend--title">Rellena</h4>
     </div>
-    <i class="fa-solid fa-angle-down legend--arrow"></i>
+    <i class="fa-solid fa-angle-down legend--arrow js-angle-down collapsed"></i>
+    <i class="fa-solid fa-angle-up legend--arrow js-angle-up"></i>
   </legend>
 
   <div class="fill-form js-content__fill collapsed" action="">
     <label for="fullName" class="fill-form-label">Nombre completo</label>
-    <input class="fill-form-input" id="fullName" type="text" name="fullName" placeholder="Ej: Sally Jill" />
+    <input class="fill-form-input js-full-name" id="fullName" type="text" name="fullName"
+      placeholder="Ej: Sally Jill" />
 
     <label for="position" class="fill-form-label">Puesto</label>
-    <input class="fill-form-input" id="position" type="text" name="position" placeholder="Ej: Front-end unicorn" />
+    <input class="fill-form-input js-job" id="position" type="text" name="position"
+      placeholder="Ej: Front-end unicorn" />
 
     <label for="profile-image" class="fill-form-label">Imagen de perfil</label>
     <div class="image-container">
@@ -25,13 +25,14 @@
     </div>
 
     <label for="email" class="fill-form-label">Email</label>
-    <input class="fill-form-input" id="email" type="text" name="email" placeholder="Ej: sally-hill@gmail.com" />
+    <input class="fill-form-input js-email" id="email" type="text" name="email"
+      placeholder="Ej: sally-hill@gmail.com" />
 
     <label for="telefono" class="fill-form-label">Teléfono</label>
-    <input class="fill-form-input" id="telefono" type="text" name="telefono" placeholder="Ej: 555-55-55-55" />
+    <input class="fill-form-input js-phone" id="telefono" type="text" name="telefono" placeholder="Ej: 555-55-55-55" />
 
-    <label for="linkedin" class="fill-form-label">Linkedin</label>
-    <input class="fill-form-input" id="linkedin" type="text" name="linkedin"
+    <label for="linkedin" class="fill-form-label">LinkedIn</label>
+    <input class="fill-form-input js-linkedin" id="linkedin" type="text" name="linkedin"
       placeholder="Ej: linkedin.com/in/sally.hill" />
 
     <label for="github" class="fill-form-label">Github</label>
