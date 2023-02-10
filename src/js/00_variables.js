@@ -28,6 +28,12 @@ const email = document.querySelector('.js-email');
 
 const previewEmail = document.querySelector('.js-preview-email');
 
+const previewPhone = document.querySelector('.js-preview-phone');
+
+const phone = document.querySelector('.js-phone');
+
 const linkedin = document.querySelector('.js-linkedin');
 
 const previewLinkedin = document.querySelector('.js-preview-linkedin');
+
+

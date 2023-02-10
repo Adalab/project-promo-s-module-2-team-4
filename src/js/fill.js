@@ -24,14 +24,22 @@ job.addEventListener('input', handleInputJob);
 
 function handleInputEmail() {
     const emailValue = email.value;
-    previewEmail.href = `mailto: ${emailValue}`;
+    previewEmail.href = `mailto:${emailValue}`;
 };
 email.addEventListener('input', handleInputEmail);
 
+function handleInputPhone() {
+    const phoneValue = phone.value;
+    previewPhone.href = `tel:${phoneValue}`;
+}
+
+phone.addEventListener('input', handleInputPhone);
+
 function handleInputLinkedin() {
     const linkedinValue = linkedin.value;
-    previewLinkedin.href = `${linkedinValue}`;
+    previewLinkedin.href = `https://www.${linkedinValue}`;
 }
 
 linkedin.addEventListener('input', handleInputLinkedin);
+
 
