@@ -9,7 +9,7 @@
     border-top: solid 1px $white-three;
 
 
-    @media (min-width:768px) {
+    @include tablet{ 
         height: 60px;
         display: flex;
         flex-direction: row;
@@ -18,7 +18,7 @@
 
     @include desktop{
 
-        position: static;
+       position: static;
     }
 
     .span_footer{
@@ -29,7 +29,7 @@
         letter-spacing: normal;
         color: $brownish-grey;
     
-        @media (min-width:768px) {
+        @include tablet{ 
             margin-left: -14rem;
         }
     }
@@ -37,7 +37,7 @@
     .img{
         width: 103px;            
 
-        @media (min-width:768px) {
+        @include tablet{ 
             margin-right: -7rem;
         }
     }

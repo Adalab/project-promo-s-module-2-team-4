@@ -3,7 +3,7 @@
     padding-top: 95px;
     padding-bottom: 35.4px;
     
-    @media (min-width:768px){
+    @include tablet{
         padding-top: 352.5px;
     }
 
@@ -19,7 +19,7 @@
         background-size: contain;
         background-position: 50%;
     
-        @media (min-width:768px){
+        @include tablet{
             width: 419px;
             height: 105px;
             margin: 0 auto;

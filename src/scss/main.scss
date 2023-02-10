@@ -11,9 +11,6 @@
 @import 'layout/cc-design';
 @import 'layout/cc-fill';
 @import 'layout/cc-share';
-
-
-
 @import 'layout/footer';
 
 /*font-family: 'Merriweather',
@@ -35,6 +32,10 @@ sans-serif;*/
     grid-template-rows: 130px 1fr 110px;
 
     @include tablet{
+        grid-template-rows: 455px 1fr 60px;
+    }
+
+    @include desktop{
         grid-template-rows: 455px 1fr 60px;
     }
 }
