@@ -1,19 +1,28 @@
 <fieldset class="share">
-  <include
+  <!-- <include
+    js-class="js-legend__share"
     src="./cc-legends.html"
     icon="fa-solid fa-share-nodes"
     title="Comparte"
   >
-  </include>
+  </include> -->
 
-  <button class="share--button js-button__share">
+  <legend class="legend js-legend__share">
+    <div class="legend--wrap">
+      <i class="fa-solid fa-share-nodes legend--icon"></i>
+      <h4 class="legend--title">Comparte</h4>
+    </div>
+    <i class="fa-solid fa-angle-down legend--arrow"></i>
+  </legend>
+
+  <button class="share--button js-button__share collapsed">
     <i class="fa-solid fa-address-card share--button__icon"></i>
     crear tarjeta
   </button>
 
   <div class="fieldset--line"></div>
 
-  <div class="share--hidden js-button__twitter collapsed">
+  <div class="share--hidden js-div__twitter collapsed">
     <h2 class="share--hidden__title">La tarjeta ha sido creada:</h2>
     <a class="share--hidden__link" href=""
       >https://awesome-profile-card.com?id=A456DF0001</a
