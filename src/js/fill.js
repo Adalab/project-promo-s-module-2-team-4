@@ -13,7 +13,7 @@ function handleClickResetBtn() {
     phone.value = '';
     linkedin.value = '';
     github.value = '';
-};
+}
 buttonReset.addEventListener('click', handleClickResetBtn);
 
 
@@ -25,7 +25,7 @@ function handleInputName() {
     } else {
         previewFullName.innerHTML = fullNameValue;
     }
-};
+}
 fullName.addEventListener('input', handleInputName);
 
 function handleInputJob() {
@@ -36,13 +36,13 @@ function handleInputJob() {
     } else {
         previewJob.innerHTML = jobValue;
     }
-};
+}
 job.addEventListener('input', handleInputJob);
 
 function handleInputEmail() {
     const emailValue = email.value;
     previewEmail.href = `mailto:${emailValue}`;
-};
+}
 email.addEventListener('input', handleInputEmail);
 
 function handleInputPhone() {

@@ -38,22 +38,18 @@ const previewLinkedin = document.querySelector('.js-preview-linkedin');
 
 const github = document.querySelector('.js-github');
 
-const previewGithub = document.querySelector('.js-preview-github');
-
 const buttonReset = document.querySelector('.button-reset');
 
-const github = document.querySelector('.js-github');
-
 const previewGithub = document.querySelector('.js-preview-github');
-
-const buttonReset = document.querySelector('.button-reset');
 
 const arrowShareDown = document.querySelector('.js-arrow-share-down');
-const github = document.querySelector('.js-github');
-
-const previewGithub = document.querySelector('.js-preview-github');
-
-const buttonReset = document.querySelector('.button-reset');
-
 
 const arrowShareUp = document.querySelector('.js-arrow-share-up');
+
+const arrowDesignDown = document.querySelector('.js-arrow-design-down');
+
+const arrowDesignUp = document.querySelector('.js-arrow-design-up');
+
+const arrowFillDown = document.querySelector('.js-arrow-fill-down');
+
+const arrowFillUp = document.querySelector('.js-arrow-fill-up');

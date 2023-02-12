@@ -18,10 +18,28 @@ function handleClickCollapsible(itemShowed) {
 
   if (itemShowed === 'fill') {
     showItems(contentFill);
+    hideItems(arrowFillUp);
+    showItems(arrowFillDown);
+    hideItems(arrowDesignDown);
+    showItems(arrowDesignUp);
+    hideItems(arrowShareDown);
+    showItems(arrowShareUp);
   } else if (itemShowed === 'share') {
     showItems(buttonShare);
+    hideItems(arrowShareUp);
+    showItems(arrowShareDown);
+    hideItems(arrowDesignDown);
+    showItems(arrowDesignUp);
+    hideItems(arrowFillDown);
+    showItems(arrowFillUp);
   } else {
     showItems(contentDesign);
+    hideItems(arrowDesignUp);
+    showItems(arrowDesignDown);
+    hideItems(arrowFillDown);
+    showItems(arrowFillUp);
+    hideItems(arrowShareDown);
+    showItems(arrowShareUp);
   }
 }
 
