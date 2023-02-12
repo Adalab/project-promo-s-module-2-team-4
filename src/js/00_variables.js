@@ -37,5 +37,11 @@ const linkedin = document.querySelector('.js-linkedin');
 const previewLinkedin = document.querySelector('.js-preview-linkedin');
 
 const arrowShareDown = document.querySelector('.js-arrow-share-down');
+const github = document.querySelector('.js-github');
+
+const previewGithub = document.querySelector('.js-preview-github');
+
+const buttonReset = document.querySelector('.button-reset');
+
 
 const arrowShareUp = document.querySelector('.js-arrow-share-up');

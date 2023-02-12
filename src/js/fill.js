@@ -1,5 +1,22 @@
 'use strict';
 
+function handleClickResetBtn() {
+    previewFullName.innerHTML = 'Nombre Apellido';
+    previewJob.innerHTML = 'Front-end developer';
+    previewEmail.href = '';
+    previewPhone.href = '';
+    previewLinkedin.href = '';
+    previewGithub.href = '';
+    fullName.value = '';
+    job.value = '';
+    email.value = '';
+    phone.value = '';
+    linkedin.value = '';
+    github.value = '';
+};
+buttonReset.addEventListener('click', handleClickResetBtn);
+
+
 function handleInputName() {
     const fullNameValue = fullName.value;
 
@@ -42,4 +59,9 @@ function handleInputLinkedin() {
 
 linkedin.addEventListener('input', handleInputLinkedin);
 
+function handleInputGithub() {
+    const githubValue = github.value;
+    previewGithub.href = `https://${githubValue}`;
+}
 
+github.addEventListener('input', handleInputGithub);
