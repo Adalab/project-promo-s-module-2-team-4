@@ -17,3 +17,7 @@ function handleClickItems(event) {
 
 
 buttonShare.addEventListener('click', handleClickItems);
+
+const buttonTwitter = document.querySelector('.js-button-twitter');
+
+

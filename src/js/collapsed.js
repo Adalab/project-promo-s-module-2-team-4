@@ -16,9 +16,9 @@ function handleClickCollapsible(itemShowed) {
   hideItems(contentFill);
   hideItems(contentDesign);
 
-  if(itemShowed === 'fill') {
+  if (itemShowed === 'fill') {
     showItems(contentFill);
-  } else if(itemShowed === 'share') {
+  } else if (itemShowed === 'share') {
     showItems(buttonShare);
   } else {
     showItems(contentDesign);
