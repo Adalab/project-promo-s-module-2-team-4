@@ -36,4 +36,10 @@ const linkedin = document.querySelector('.js-linkedin');
 
 const previewLinkedin = document.querySelector('.js-preview-linkedin');
 
+const github = document.querySelector('.js-github');
+
+const previewGithub = document.querySelector('.js-preview-github');
+
+const buttonReset = document.querySelector('.button-reset');
+
 
