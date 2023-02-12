@@ -90,21 +90,8 @@
             }
                 
        
-            
-
-    .buttom_main{
-        padding-top: 38.6px;
-
-            @media (min-width:768px){
-                padding-top: 150px;
-                padding-bottom: 40px;
-            }
-            @include desktop{
-                
-            }
-    }
+        
         .bnt{
-            height: 42px;
             font: $open_sans_semi_16;
             border-radius: 21px;
             border-style: none;
