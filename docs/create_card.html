@@ -1,50 +1,195 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/main.css">
-    
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/6885363b9f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./assets/css/main.css" />
+
 </head>
+
 <body>
-    <header class="header">
+  <header class="cc--header">
+    <a href="./index.html">
+      <div class="cc--header__img"></div>
+    </a>
+  </header>
 
-        <div class="images-header">
-            <!--<img src="./assets/images/logo-awesome-profile-cards-svg" alt="insertar SVG con la etiqueta image">-->
-        </div>
-    </header>
-    
-    
-    
-    <fieldset class="share">
-      <div class="share--header">
-        <span class="share--header__title">
-          <i class="fa-icon fa-solid fa-share-nodes share--header__icon"></i>
-          <legend class="share--header__legend">Comparte</legend>
-        </span>
-        <i class="fa-solid fa-angle-down share--header__arrow"></i>
+  <main class="main--background">
+    <section class="section-preview">
+      <div class="container">
+        <!--<button type= debe ser "button" o "reset" ???value="Restaurar valores por defecto" />-->
+
+        <button class="button-reset" type="reset" name="button">
+          <i class="icon-trash fa fa-trash"></i>RESET
+        </button>
+
+        <article class="card-content js-palette palette1">
+          <div class="card-header">
+            <h2 class="card-name js-preview-full-name">Nombre Apellido</h2>
+            <h3 class="card-jobdesc js-preview-job">Front-end developer</h3>
+          </div>
+          <div class="card-image"></div>
+          <nav class="nav-card-icons">
+            <a class="icon-card-icons js-preview-phone" href="" target="_blank"
+              ><i class="icon-preview fa-solid fa-mobile-screen-button"></i
+            ></a>
+            <a class="icon-card-icons js-preview-email" href="" target="_blank"
+              ><i class="icon-preview fa-regular fa-envelope"></i
+            ></a>
+            <a class="icon-card-icons js-preview-linkedin" href="" target="_blank"
+              ><i class="icon-preview fa-brands fa-linkedin-in"></i
+            ></a>
+            <a class="icon-card-icons js-preview-github" href="" target="_blank"
+              ><i class="icon-preview fa-brands fa-github-alt"></i
+            ></a>
+          </nav>
+        </article>
       </div>
+    </section>
 
-      <button class="share--button__card">
-        <i class="fa-regular fa-address-card"></i>
-        crear tarjeta
-      </button>
-      <div class="share--card__hidden">
-        <h2>La tarjeta ha sido creada:</h2>
-        <a href="">esto es un link</a>
-        <a class="share--button__card" href=""
-          ><i class="fa-brands fa-twitter twitter-share-button__icon"></i>
-          Compartir en twitter
-        </a>
+    <form class="form--background" action="">
+      <div class="container">
+        <fieldset class="design">
+          <legend class="legend js-legend__design">
+            <div class="legend--wrap">
+              <i class="fa-regular fa-object-ungroup legend--icon"></i>
+              <h4 class="legend--title">Diseña</h4>
+            </div>
+            <i class="fa-solid fa-angle-down legend--arrow js-arrow-design-down "></i>
+            <i class="fa-solid fa-angle-up legend--arrow js-arrow-design-up collapsed"></i>
+          </legend>
+
+          <div class="design__content js-content__design">
+            <legend class="design__content-legend">colores</legend>
+            <div class="design__content-color">
+              <div class="design__color-1">
+                <input type="radio" name="design_color" value="color_1" class="input_color js-color1" checked />
+                <div class="color_1_1 box"></div>
+                <div class="color_1_2 box"></div>
+                <div class="color_1_3 box"></div>
+              </div>
+
+              <div class="design__color-2">
+                <input type="radio" name="design_color" value="color_2" class="input_color js-color2" />
+                <div class="color_2_1 box"></div>
+                <div class="color_2_2 box"></div>
+                <div class="color_2_3 box"></div>
+              </div>
+
+              <div class="design__color-3">
+                <input type="radio" name="design_color" value="color_3" class="input_color js-color3" />
+                <div class="color_3_1 box"></div>
+                <div class="color_3_2 box"></div>
+                <div class="color_3_3 box"></div>
+              </div>
+
+              <div class="design__color-4">
+                <input type="radio" name="design_color" value="color_4" class="input_color js-color4" />
+                <div class="color_4_1 box"></div>
+                <div class="color_4_2 box"></div>
+                <div class="color_4_3 box"></div>
+              </div>
+
+              <div class="design__color-5">
+                <input type="radio" name="design_color" value="color_5" class="input_color js-color5" />
+                <div class="color_5_1 box"></div>
+                <div class="color_5_2 box"></div>
+                <div class="color_5_3 box"></div>
+              </div>
+            </div>
+          </div>
+          <div class="fieldset__line"></div>
+        </fieldset>
+        <fieldset>
+          <legend class="legend js-legend__fill">
+            <div class="legend--wrap">
+              <i class="fa-regular fa-keyboard legend--icon"></i>
+              <h4 class="legend--title">Rellena</h4>
+            </div>
+            <i class="fa-solid fa-angle-down legend--arrow js-arrow-fill-down collapsed"></i>
+            <i class="fa-solid fa-angle-up legend--arrow js-arrow-fill-up"></i>
+          </legend>
+
+          <div class="fill-form js-content__fill collapsed" action="">
+            <label for="fullName" class="fill-form-label">Nombre completo</label>
+            <input class="fill-form-input js-full-name" id="fullName" type="text" name="fullName"
+              placeholder="Ej: Sally Jill" />
+
+            <label for="position" class="fill-form-label">Puesto</label>
+            <input class="fill-form-input js-job" id="position" type="text" name="position"
+              placeholder="Ej: Front-end unicorn" />
+
+            <label for="profile-image" class="fill-form-label">Imagen de perfil</label>
+            <div class="image-container">
+              <button class="add-image">Añadir Imagen</button>
+              <div class="square"></div>
+            </div>
+
+            <label for="email" class="fill-form-label">Email</label>
+            <input class="fill-form-input js-email" id="email" type="text" name="email"
+              placeholder="Ej: sally-hill@gmail.com" />
+
+            <label for="telefono" class="fill-form-label">Teléfono</label>
+            <input class="fill-form-input js-phone" id="telefono" type="text" name="telefono" placeholder="Ej: 555-55-55-55" />
+
+            <label for="linkedin" class="fill-form-label">LinkedIn</label>
+            <input class="fill-form-input js-linkedin" id="linkedin" type="text" name="linkedin"
+              placeholder="Ej: linkedin.com/in/sally.hill" />
+
+            <label for="github" class="fill-form-label">Github</label>
+            <input class="fill-form-input js-github" id="github" type="text" name="github" placeholder="Ej: @sally-hill" />
+          </div>
+          <div class="fieldset--line"></div>
+        </fieldset>
+        <fieldset class="share">
+          <legend class="legend js-legend__share">
+            <div class="legend--wrap">
+              <i class="fa-solid fa-share-nodes legend--icon"></i>
+              <h4 class="legend--title">Comparte</h4>
+            </div>
+            <i class="fa-solid fa-angle-down legend--arrow js-arrow-share-down collapsed"></i>
+            <i class="fa-solid fa-angle-up legend--arrow js-arrow-share-up"></i>
+          </legend>
+
+          <button class="share--button js-button__share collapsed">
+            <i class="fa-solid fa-address-card share--button__icon"></i>
+            crear tarjeta
+          </button>
+
+          <div class="fieldset--line"></div>
+
+          <div class="share--hidden js-div__twitter collapsed">
+            <h2 class="share--hidden__title">La tarjeta ha sido creada:</h2>
+            <a class="share--hidden__link" href="">https://awesome-profile-card.com?id=A456DF0001</a>
+            <a class="share--hidden__button js-button-twitter" href="" target="_blank"><i
+                class="fa-brands fa-twitter share--hidden__icon"></i>
+              Compartir en twitter
+            </a>
+          </div>
+
+          <div class="fieldset--line"></div>
+        </fieldset>
       </div>
-    </fieldset>
+    </form>
+  </main>
+  <footer class="footer">
 
-    <footer class="footer">
+      <span class="span_footer">Awesome profile-cards @2023</span>
 
-    </footer>
-    
-    <script src="./assets/js/main.js"></script>
+      <div class="img_footer">
+          <img src="./assets/images/logo-adalab.png" alt="logo_footer" class="img">
+      </div>
+  </footer>
+  <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
