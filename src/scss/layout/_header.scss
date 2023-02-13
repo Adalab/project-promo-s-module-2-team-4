@@ -1,11 +1,9 @@
 .header{
-    /*width: 100vw;*/
-    height: 100px;
     padding-top: 70px;
     
     
     @include tablet{
-        /*padding-top: 352.5px;*/
+        padding-top: 150px;
     }
 
     @include desktop{

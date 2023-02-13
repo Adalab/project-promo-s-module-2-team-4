@@ -25,19 +25,16 @@ sans-serif;*/
 }
 
 .body {
-    width: 100vw;
+    /*width: 100vw;*/
     background-color: $white-four;
-    height: 100vh;
+    min-height: 100vh;
     display: grid;
-    grid-template-rows: 130px 1fr 110px;
+    grid-template-rows: 100px 1fr 110px;
 
     @include tablet{
-        grid-template-rows: 455px 1fr 60px;
+        grid-template-rows: 250px 1fr 60px;
     }
 
-    @include desktop{
-        grid-template-rows: 455px 1fr 60px;
-    }
 }
 
 .container {
