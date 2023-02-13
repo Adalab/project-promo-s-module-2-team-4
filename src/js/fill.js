@@ -60,8 +60,9 @@ function handleInputLinkedin() {
 linkedin.addEventListener('input', handleInputLinkedin);
 
 function handleInputGithub() {
-    const githubValue = github.value;
-    previewGithub.href = `https://${githubValue}`;
+    const githubValueAt = github.value;
+    const githubValue = githubValueAt.replace('@','');
+    previewGithub.href = `https://github.com/${githubValue}`;
 }
 
 github.addEventListener('input', handleInputGithub);
