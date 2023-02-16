@@ -25,10 +25,10 @@
 
   <main class="main--background">
     <section class="section-preview">
-      <div class="container">
+      <div class="container-preview">    <!--Revisión imagen-->
         <!--<button type= debe ser "button" o "reset" ???value="Restaurar valores por defecto" />-->
 
-        <button class="button-reset" type="reset" name="button">
+        <button class="button-reset js-reset" type="reset" name="reset">
           <i class="icon-trash fa fa-trash"></i>RESET
         </button>
 
@@ -37,70 +37,65 @@
             <h2 class="card-name js-preview-full-name">Nombre Apellido</h2>
             <h3 class="card-jobdesc js-preview-job">Front-end developer</h3>
           </div>
-          <div class="card-image"></div>
+          <div class="card-image js__profile-image" style="background-image: url(../../assets/images/preview-card-image.jpeg)"></div>
           <nav class="nav-card-icons">
-            <a class="icon-card-icons js-preview-phone" href="" target="_blank"
-              ><i class="icon-preview fa-solid fa-mobile-screen-button"></i
-            ></a>
-            <a class="icon-card-icons js-preview-email" href="" target="_blank"
-              ><i class="icon-preview fa-regular fa-envelope"></i
-            ></a>
-            <a class="icon-card-icons js-preview-linkedin" href="" target="_blank"
-              ><i class="icon-preview fa-brands fa-linkedin-in"></i
-            ></a>
-            <a class="icon-card-icons js-preview-github" href="" target="_blank"
-              ><i class="icon-preview fa-brands fa-github-alt"></i
-            ></a>
+            <a class="icon-card-icons js-preview-phone" href="" target="_blank"><i
+                class="icon-preview fa-solid fa-mobile-screen-button" title="Teléfono"></i></a>
+            <a class="icon-card-icons js-preview-email" href="" target="_blank"><i
+                class="icon-preview fa-regular fa-envelope" title="Email"></i></a>
+            <a class="icon-card-icons js-preview-linkedin" href="" target="_blank"><i
+                class="icon-preview fa-brands fa-linkedin-in" title="Linkedin"></i></a>
+            <a class="icon-card-icons js-preview-github" href="" target="_blank"><i
+                class="icon-preview fa-brands fa-github-alt" title="Github"></i></a>
           </nav>
         </article>
       </div>
     </section>
-
     <form class="form--background" action="">
-      <div class="container">
+      <div class="container js-container-form">
         <fieldset class="design">
           <legend class="legend js-legend__design">
             <div class="legend--wrap">
               <i class="fa-regular fa-object-ungroup legend--icon"></i>
               <h4 class="legend--title">Diseña</h4>
             </div>
-            <i class="fa-solid fa-angle-down legend--arrow js-arrow-design-down "></i>
-            <i class="fa-solid fa-angle-up legend--arrow js-arrow-design-up collapsed"></i>
+            <i class="fa-solid fa-angle-down legend--arrow js-arrow-design-down"></i>
+            <i class="fa-solid fa-angle-up legend--arrow js-arrow-design-up collapsed" title="Abre sección 'Diseña'"></i>
           </legend>
 
           <div class="design__content js-content__design">
             <legend class="design__content-legend">colores</legend>
             <div class="design__content-color">
               <div class="design__color-1">
-                <input type="radio" name="design_color" value="color_1" class="input_color js-color1" checked />
+                <input type="radio" name="palette" value="1" class="input_color js-color1" checked />
                 <div class="color_1_1 box"></div>
                 <div class="color_1_2 box"></div>
                 <div class="color_1_3 box"></div>
               </div>
 
               <div class="design__color-2">
-                <input type="radio" name="design_color" value="color_2" class="input_color js-color2" />
+                <input type="radio" name="palette" value="2" class="input_color js-color2" />
                 <div class="color_2_1 box"></div>
                 <div class="color_2_2 box"></div>
                 <div class="color_2_3 box"></div>
               </div>
 
               <div class="design__color-3">
-                <input type="radio" name="design_color" value="color_3" class="input_color js-color3" />
+                <input type="radio" name="palette" value="3" class="input_color js-color3" />
                 <div class="color_3_1 box"></div>
                 <div class="color_3_2 box"></div>
                 <div class="color_3_3 box"></div>
               </div>
 
               <div class="design__color-4">
-                <input type="radio" name="design_color" value="color_4" class="input_color js-color4" />
+                <input type="radio" name="palette" value="4" class="input_color js-color4" />
                 <div class="color_4_1 box"></div>
                 <div class="color_4_2 box"></div>
                 <div class="color_4_3 box"></div>
               </div>
 
               <div class="design__color-5">
-                <input type="radio" name="design_color" value="color_5" class="input_color js-color5" />
+                <input type="radio" name="palette" value="5" class="input_color js-color5" />
                 <div class="color_5_1 box"></div>
                 <div class="color_5_2 box"></div>
                 <div class="color_5_3 box"></div>
@@ -116,30 +111,31 @@
               <h4 class="legend--title">Rellena</h4>
             </div>
             <i class="fa-solid fa-angle-down legend--arrow js-arrow-fill-down collapsed"></i>
-            <i class="fa-solid fa-angle-up legend--arrow js-arrow-fill-up"></i>
+            <i class="fa-solid fa-angle-up legend--arrow js-arrow-fill-up" title="Abre sección 'Rellena'"></i>
           </legend>
 
           <div class="fill-form js-content__fill collapsed" action="">
-            <label for="fullName" class="fill-form-label">Nombre completo</label>
-            <input class="fill-form-input js-full-name" id="fullName" type="text" name="fullName"
+            <label for="name" class="fill-form-label">Nombre completo</label>
+            <input class="fill-form-input js-full-name" id="name" type="text" name="name"
               placeholder="Ej: Sally Jill" />
 
-            <label for="position" class="fill-form-label">Puesto</label>
-            <input class="fill-form-input js-job" id="position" type="text" name="position"
+            <label for="job" class="fill-form-label">Puesto</label>
+            <input class="fill-form-input js-job" id="job" type="text" name="job"
               placeholder="Ej: Front-end unicorn" />
 
-            <label for="profile-image" class="fill-form-label">Imagen de perfil</label>
+            <label class="fill-form-label">Imagen de perfil</label>
             <div class="image-container">
-              <button class="add-image">Añadir Imagen</button>
-              <div class="square"></div>
+              <label for="profile-image" class="action__upload-btn">Añadir Imagen</label>
+              <div class="profile__preview js__profile-preview"></div>
+              <input type="file" id="profile-image" name="photo" value="Añadir Imagen" class="collapsed js__profile-upload-btn">
             </div>
 
             <label for="email" class="fill-form-label">Email</label>
             <input class="fill-form-input js-email" id="email" type="text" name="email"
               placeholder="Ej: sally-hill@gmail.com" />
 
-            <label for="telefono" class="fill-form-label">Teléfono</label>
-            <input class="fill-form-input js-phone" id="telefono" type="text" name="telefono" placeholder="Ej: 555-55-55-55" />
+            <label for="phone" class="fill-form-label">Teléfono</label>
+            <input class="fill-form-input js-phone" id="phone" type="text" name="phone" placeholder="Ej: 555-55-55-55" />
 
             <label for="linkedin" class="fill-form-label">LinkedIn</label>
             <input class="fill-form-input js-linkedin" id="linkedin" type="text" name="linkedin"
@@ -157,7 +153,7 @@
               <h4 class="legend--title">Comparte</h4>
             </div>
             <i class="fa-solid fa-angle-down legend--arrow js-arrow-share-down collapsed"></i>
-            <i class="fa-solid fa-angle-up legend--arrow js-arrow-share-up"></i>
+            <i class="fa-solid fa-angle-up legend--arrow js-arrow-share-up" title="Abre sección 'Comparte'"></i>
           </legend>
 
           <button class="share--button js-button__share collapsed">
