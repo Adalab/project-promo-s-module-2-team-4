@@ -14,12 +14,22 @@
         flex-grow: 1;
         height: 812px;
         border-radius: 6px;
+        padding: 0;   /*Revisión posición imagen*/
     }
 
     @include desktop {
-        width: 585px;
-        height: 812px;
+        // width: 585px; /*Revisión posición imagen*/
+        // height: 812px;
     }
+}
+
+.container-preview {       /*Revisión imagen*/
+    padding: 0 20px 0 20px;
+
+    @include tablet {
+        margin-top: -220px;
+    }
+
 }
 
 .button-reset{
@@ -36,8 +46,10 @@
     .icon-trash{
         padding-right: 7px;
     }
-    
-    
+
+    @include tablet {
+        margin-top: 0;    /*Revisión imagen*/
+    }   
 }
 
 .card-content{
@@ -53,129 +65,133 @@
     margin-bottom: 40px;
 
     .card-header {
-            border-left: solid 5px $dirty-blue;
-            margin-top: 10px;
-    
-            .card-name {
-                font: $montserrat_18;
-                color: $dark-green-blue;
-                padding-left: 15px;
-                padding-bottom: 5px;
-            }
-    
-            .card-jobdesc {
-                font: $montserrat_16;
-                color: $gunmetal;
-                padding-left: 15px;
-            }
+        border-left: solid 5px $dirty-blue;
+        margin-top: 10px;
+
+        .card-name {
+            font: $montserrat_18;
+            color: $dark-green-blue;
+            padding-left: 15px;
+            padding-bottom: 5px;
         }
+
+        .card-jobdesc {
+            font: $montserrat_16;
+            color: $gunmetal;
+            padding-left: 15px;
+        }
+    }
 
     .card-image {
-            width: 240px;
-            height: 200px;
-            background-image: url(../../assets/images/preview-card-image.jpeg);
-            background-size: cover;
-            background-position: center;
-        }
+        width: 240px;
+        height: 200px;
+        //background-image: url(../../assets/images/preview-card-image.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
     .nav-card-icons {
-            display: flex;
-            justify-content: space-around;
-            padding-right: 60px;
-            padding-left: 10px;
-    
-            .icon-card-icons {
-                width: 32px;
-                height: 32px;
-                font-size: 18px;
-                border: solid 2px $hospital-green;
-                border-radius: 50px;
-                color: $dark-green-blue;
-                text-align: center;
-    
-                .icon-preview {
-                    padding-top: 7px;
-                }
+        display: flex;
+        justify-content: space-around;
+        padding-right: 60px;
+        padding-left: 10px;
+
+        .icon-card-icons {
+            width: 32px;
+            height: 32px;
+            font-size: 18px;
+            border: solid 2px $hospital-green;
+            border-radius: 50px;
+            color: $dark-green-blue;
+            text-align: center;
+
+            .icon-preview {
+                padding-top: 7px;
             }
-    
         }
     }
 
-    .card-content.palette1 {
-        .card-header {
-            border-left-color: $dirty-blue;
-        }
+    @include tablet {
+        margin: 0;    /*Revisión imagen*/
+    }
+}
 
-        .card-name {
-            color: $dark-green-blue;
-        }
-
-        .icon-card-icons {
-            border-color: $hospital-green;
-            color: $dark-green-blue;
-        }
+.card-content.palette1 {
+    .card-header {
+        border-left-color: $dirty-blue;
     }
 
-    .card-content.palette2 {
-        .card-header {
-            border-left-color: $rusty-red;
-        }
-
-        .card-name {
-            color: $dried-blood;
-        }
-
-        .icon-card-icons {
-            border-color: $tomato;
-            color: $dried-blood;
-        }
+    .card-name {
+        color: $dark-green-blue;
     }
 
-    .card-content.palette3 {
-        .card-header {
-            border-left-color: $faded-orange;
-        }
+    .icon-card-icons {
+        border-color: $hospital-green;
+        color: $dark-green-blue;
+    }
+}
 
-        .card-name {
-            color: $slate;
-        }
-
-        .icon-card-icons {
-            border-color: $light-grey-blue;
-            color: $slate;
-        }
+.card-content.palette2 {
+    .card-header {
+        border-left-color: $rusty-red;
     }
 
-    .card-content.palette4 {
-        .card-header {
-            border-left-color: $light-salmon-pink;
-        }
-
-        .card-name {
-            color: $english-lavender;
-        }
-
-        .icon-card-icons {
-            border-color:
-                $pastel-green;
-            color: $english-lavender;
-        }
+    .card-name {
+        color: $dried-blood;
     }
 
-    .card-content.palette5 {
-        .card-header {
-            border-left-color: $salmon;
-        }
-
-        .card-name {
-            color: $violet-pink;
-        }
-
-        .icon-card-icons {
-            border-color: $banana;
-            color: $violet-pink;
-        }
+    .icon-card-icons {
+        border-color: $tomato;
+        color: $dried-blood;
     }
+}
+
+.card-content.palette3 {
+    .card-header {
+        border-left-color: $faded-orange;
+    }
+
+    .card-name {
+        color: $slate;
+    }
+
+    .icon-card-icons {
+        border-color: $light-grey-blue;
+        color: $slate;
+    }
+}
+
+.card-content.palette4 {
+    .card-header {
+        border-left-color: $light-salmon-pink;
+    }
+
+    .card-name {
+        color: $english-lavender;
+    }
+
+    .icon-card-icons {
+        border-color:
+            $pastel-green;
+        color: $english-lavender;
+    }
+}
+
+.card-content.palette5 {
+    .card-header {
+        border-left-color: $salmon;
+    }
+
+    .card-name {
+        color: $violet-pink;
+    }
+
+    .icon-card-icons {
+        border-color: $banana;
+        color: $violet-pink;
+    }
+}
 
 
 

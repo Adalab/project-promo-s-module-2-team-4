@@ -30,24 +30,25 @@
     margin-bottom: 1rem;
       
 }
-.add-image {
+.action__upload-btn {
     background-color: $dull-orange;
     color: white;
+    font: $open_sans_regular_14;
     border: none;
-    padding: 0 2rem;
-    height: 30px;
+    padding: 0.5rem 2rem;
     border-radius: 4px;
+    box-shadow: 0 1px 5px 0 $pinkish-grey;
 
 
 }
-.square {
+.profile__preview {
     width: 30px;
     height: 30px;
     border:1px solid $hospital-green;
     margin-left: 2rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-}
-.profile-image {
-    background-color: $tomato;
 }
 

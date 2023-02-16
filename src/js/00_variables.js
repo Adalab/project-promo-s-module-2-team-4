@@ -28,9 +28,9 @@ const email = document.querySelector('.js-email');
 
 const previewEmail = document.querySelector('.js-preview-email');
 
-const previewPhone = document.querySelector('.js-preview-phone');
-
 const phone = document.querySelector('.js-phone');
+
+const previewPhone = document.querySelector('.js-preview-phone');
 
 const linkedin = document.querySelector('.js-linkedin');
 
@@ -38,9 +38,9 @@ const previewLinkedin = document.querySelector('.js-preview-linkedin');
 
 const github = document.querySelector('.js-github');
 
-const buttonReset = document.querySelector('.button-reset');
-
 const previewGithub = document.querySelector('.js-preview-github');
+
+const buttonReset = document.querySelector('.button-reset');
 
 const arrowShareDown = document.querySelector('.js-arrow-share-down');
 
@@ -53,3 +53,28 @@ const arrowDesignUp = document.querySelector('.js-arrow-design-up');
 const arrowFillDown = document.querySelector('.js-arrow-fill-down');
 
 const arrowFillUp = document.querySelector('.js-arrow-fill-up');
+
+const contentDesign = document.querySelector(".js-content__design");
+
+const contentFill = document.querySelector(".js-content__fill");
+
+const legendDesign = document.querySelector(".js-legend__design");
+
+const legendFill = document.querySelector(".js-legend__fill");
+
+const legendShare = document.querySelector(".js-legend__share");
+
+const buttonTwitter = document.querySelector('.js-button-twitter');
+
+const containerForm = document.querySelector('.js-container-form');
+
+const dataCard = {
+  palette: '',
+  name: '',
+  job: '',
+  photo: '',
+  email: '',
+  phone: '',
+  github: '',
+  linkedin: '',
+};

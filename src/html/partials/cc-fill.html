@@ -9,26 +9,27 @@
   </legend>
 
   <div class="fill-form js-content__fill collapsed" action="">
-    <label for="fullName" class="fill-form-label">Nombre completo</label>
-    <input class="fill-form-input js-full-name" id="fullName" type="text" name="fullName"
+    <label for="name" class="fill-form-label">Nombre completo</label>
+    <input class="fill-form-input js-full-name" id="name" type="text" name="name"
       placeholder="Ej: Sally Jill" />
 
-    <label for="position" class="fill-form-label">Puesto</label>
-    <input class="fill-form-input js-job" id="position" type="text" name="position"
+    <label for="job" class="fill-form-label">Puesto</label>
+    <input class="fill-form-input js-job" id="job" type="text" name="job"
       placeholder="Ej: Front-end unicorn" />
 
-    <label for="profile-image" class="fill-form-label">Imagen de perfil</label>
+    <label class="fill-form-label">Imagen de perfil</label>
     <div class="image-container">
-      <button class="add-image">Añadir Imagen</button>
-      <div class="square"></div>
+      <label for="profile-image" class="action__upload-btn">Añadir Imagen</label>
+      <div class="profile__preview js__profile-preview"></div>
+      <input type="file" id="profile-image" name="photo" value="Añadir Imagen" class="collapsed js__profile-upload-btn">
     </div>
 
     <label for="email" class="fill-form-label">Email</label>
     <input class="fill-form-input js-email" id="email" type="text" name="email"
       placeholder="Ej: sally-hill@gmail.com" />
 
-    <label for="telefono" class="fill-form-label">Teléfono</label>
-    <input class="fill-form-input js-phone" id="telefono" type="text" name="telefono" placeholder="Ej: 555-55-55-55" />
+    <label for="phone" class="fill-form-label">Teléfono</label>
+    <input class="fill-form-input js-phone" id="phone" type="text" name="phone" placeholder="Ej: 555-55-55-55" />
 
     <label for="linkedin" class="fill-form-label">LinkedIn</label>
     <input class="fill-form-input js-linkedin" id="linkedin" type="text" name="linkedin"
