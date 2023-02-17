@@ -23,7 +23,7 @@ function handleClickResetBtn() {
     github.value = '';
     selectColor('palette1');
     resetPalettesCheck ();
-    profileImage.style.backgroundImage = 'url(../assets/images/preview-card-image.jpeg)';
+    profileImage.style.backgroundImage = 'url(../../assets/images/preview-card-image.jpeg)';
     profilePreview.style.backgroundImage = '';
 }
 
