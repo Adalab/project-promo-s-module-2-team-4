@@ -117,32 +117,32 @@
           <div class="fill-form js-content__fill collapsed" action="">
             <label for="name" class="fill-form-label">Nombre completo</label>
             <input class="fill-form-input js-full-name" id="name" type="text" name="name"
-              placeholder="Ej: Sally Jill" />
+              placeholder="Ej: Sally Jill" required/>
 
             <label for="job" class="fill-form-label">Puesto</label>
             <input class="fill-form-input js-job" id="job" type="text" name="job"
-              placeholder="Ej: Front-end unicorn" />
+              placeholder="Ej: Front-end unicorn" required/>
 
             <label class="fill-form-label">Imagen de perfil</label>
             <div class="image-container">
               <label for="profile-image" class="action__upload-btn">Añadir Imagen</label>
               <div class="profile__preview js__profile-preview"></div>
-              <input type="file" id="profile-image" name="photo" value="Añadir Imagen" class="collapsed js__profile-upload-btn">
+              <input type="file" id="profile-image" name="photo" value="Añadir Imagen" class="collapsed js__profile-upload-btn" required>
             </div>
 
             <label for="email" class="fill-form-label">Email</label>
-            <input class="fill-form-input js-email" id="email" type="text" name="email"
-              placeholder="Ej: sally-hill@gmail.com" />
+            <input class="fill-form-input js-email" id="email" type="email" name="email"
+              placeholder="Ej: sally-hill@gmail.com" required/>
 
             <label for="phone" class="fill-form-label">Teléfono</label>
-            <input class="fill-form-input js-phone" id="phone" type="text" name="phone" placeholder="Ej: 555-55-55-55" />
+            <input class="fill-form-input js-phone" id="phone" type="number" name="phone" placeholder="Ej: 555-55-55-55" />
 
             <label for="linkedin" class="fill-form-label">LinkedIn</label>
             <input class="fill-form-input js-linkedin" id="linkedin" type="text" name="linkedin"
-              placeholder="Ej: linkedin.com/in/sally.hill" />
+              placeholder="Ej: linkedin.com/in/sally.hill" required/>
 
             <label for="github" class="fill-form-label">Github</label>
-            <input class="fill-form-input js-github" id="github" type="text" name="github" placeholder="Ej: @sally-hill" />
+            <input class="fill-form-input js-github" id="github" type="text" name="github" placeholder="Ej: @sally-hill" required/>
           </div>
           <div class="fieldset--line"></div>
         </fieldset>
