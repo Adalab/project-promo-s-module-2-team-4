@@ -15,7 +15,7 @@ Slack
 Zoom
 Starter Kit Adalab
 
-##Especificaciones ⚙️
+##Especificaciones ⚙️  
 En el desarrollo de esta aplicación web usaremos las siguientes tecnologías:
 Uso avanzado de formularios HTML
 Maquetación usando CSS avanzado, como flex y grid
@@ -26,14 +26,14 @@ Almacenamiento en local usando LocalStorage
 Uso de git para el control de versiones del proyecto
 Publicación del resultado en Internet usando GitHub Pages
 
-##Interacción con la web 🚀
+##Interacción con la web 🚀  
 La aplicación funciona siguiendo estos pasos:
 
 1. Permitir al usuario elegir el estilo de la tarjeta, eligiendo paleta de colores
 2. Permitir al usuario que, mediante la introducción de información en un formulario, este texto se muestre maquetado automáticamente en un cuadro similar a una tarjeta de visita, que será la muestra del resultado final
 3. Permitir que el usuario pueda crear una web con su tarjeta y compartirla por Twitter
 
-##Autoras ✒️
+##Autoras ✒️  
 ###Grupo 4:  
 Laura Caurín  
 Veronica Salandy  
