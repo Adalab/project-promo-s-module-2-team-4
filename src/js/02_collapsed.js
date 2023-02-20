@@ -1,9 +1,10 @@
 'use strict';
 
 function handleClickCollapsible(itemShowed) {
-  hideItems(buttonShare);
+  hideItems(contentShare);
   hideItems(contentFill);
   hideItems(contentDesign);
+
 
   if (itemShowed === 'fill') {
     showItems(contentFill);
@@ -13,6 +14,8 @@ function handleClickCollapsible(itemShowed) {
     showItems(arrowDesignUp);
     hideItems(arrowShareDown);
     showItems(arrowShareUp);
+
+
   } else if (itemShowed === 'share') {
     showItems(buttonShare);
     hideItems(arrowShareUp);
@@ -21,6 +24,8 @@ function handleClickCollapsible(itemShowed) {
     showItems(arrowDesignUp);
     hideItems(arrowFillDown);
     showItems(arrowFillUp);
+    showItems(contentShare);
+
   } else {
     showItems(contentDesign);
     hideItems(arrowDesignUp);
@@ -29,6 +34,7 @@ function handleClickCollapsible(itemShowed) {
     showItems(arrowFillUp);
     hideItems(arrowShareDown);
     showItems(arrowShareUp);
+
   }
 };
 

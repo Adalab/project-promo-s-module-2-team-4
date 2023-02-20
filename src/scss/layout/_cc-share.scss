@@ -5,6 +5,13 @@
     justify-content: center;
     margin-bottom: 30px;
 
+    &--content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
     &--button {
     margin: 20px 0 30px 0;
     color: $white-two;
@@ -13,8 +20,6 @@
     border-radius: 1.2rem;
     font: $open_sans_semi_18;
     font-weight: 400;
-    display: flex;
-    align-items: center;
     border: none;
     padding: 13px 18px 13px 17px;
     text-transform: uppercase;
@@ -66,4 +71,5 @@
 .fieldset--line {
     height: 1px;
     background-color: $white-three;
+    width: 100%;
 }

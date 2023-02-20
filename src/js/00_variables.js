@@ -56,6 +56,8 @@ const arrowFillUp = document.querySelector('.js-arrow-fill-up');
 
 const contentDesign = document.querySelector(".js-content__design");
 
+const contentShare = document.querySelector(".js-content__share");
+
 const contentFill = document.querySelector(".js-content__fill");
 
 const legendDesign = document.querySelector(".js-legend__design");
