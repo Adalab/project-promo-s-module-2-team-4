@@ -70,8 +70,12 @@ const buttonTwitter = document.querySelector('.js-button-twitter');
 
 const containerForm = document.querySelector('.js-container-form');
 
-const dataCard = {
-  palette: '',
+const shareHiddenTitle = document.querySelector('.js--share__hidden_title');
+
+const shareHiddenLink = document.querySelector('.js--share__link');
+
+let dataCard = {
+  palette: '1',
   name: '',
   job: '',
   photo: '',

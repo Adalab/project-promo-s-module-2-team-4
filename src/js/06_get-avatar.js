@@ -35,6 +35,7 @@ function writeImage() {
   profilePreview.style.backgroundImage = `url(${fr.result})`;
   
   dataCard.photo = fr.result;
+  localStorage.setItem('formData', JSON.stringify(dataCard));
 }
 
 
