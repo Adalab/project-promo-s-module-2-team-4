@@ -14,6 +14,7 @@ function handleClickCollapsible(itemShowed) {
     showItems(arrowDesignUp);
     hideItems(arrowShareDown);
     showItems(arrowShareUp);
+    scrollToTop(header)
 
 
   } else if (itemShowed === 'share') {
@@ -25,6 +26,7 @@ function handleClickCollapsible(itemShowed) {
     hideItems(arrowFillDown);
     showItems(arrowFillUp);
     showItems(contentShare);
+    scrollToTop(header)
 
   } else {
     showItems(contentDesign);
@@ -34,9 +36,14 @@ function handleClickCollapsible(itemShowed) {
     showItems(arrowFillUp);
     hideItems(arrowShareDown);
     showItems(arrowShareUp);
+    scrollToTop(header)
 
   }
 };
+
+function scrollToTop(place) {
+  place.scrollIntoView(true); // Top
+}
 
 legendDesign.addEventListener('click', () => {
   handleClickCollapsible('design');

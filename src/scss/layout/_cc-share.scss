@@ -38,7 +38,7 @@
 }
 
 .share--hidden {
-    margin-top: 20px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,8 +68,17 @@
     }
 }
 
+.error--message{
+    margin: 10px 0;
+    color: $black;
+}
+
 .fieldset--line {
     height: 1px;
     background-color: $white-three;
     width: 100%;
+}
+
+.margin--title{
+    margin-top: 20px;
 }

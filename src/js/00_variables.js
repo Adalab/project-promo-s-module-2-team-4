@@ -74,6 +74,8 @@ const shareHiddenTitle = document.querySelector('.js--share__hidden_title');
 
 const shareHiddenLink = document.querySelector('.js--share__link');
 
+const header = document.getElementById("header");
+
 let dataCard = {
   palette: '1',
   name: '',
