@@ -25,6 +25,7 @@ function handleClickResetBtn() {
     resetPalettesCheck ();
     profileImage.style.backgroundImage = 'url(./assets/images/preview-card-image.jpeg)';
     profilePreview.style.backgroundImage = '';
+    localStorage.removeItem('formData');
 }
 
 buttonReset.addEventListener('click', handleClickResetBtn);

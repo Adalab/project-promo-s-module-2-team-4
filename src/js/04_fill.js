@@ -21,46 +21,43 @@ function formContent(event) {
   switch (event.target.name) {
     case 'palette':
       selectColor('palette' + event.target.value);
-      renderCard('palette', 'event');
+      dataCard.palette = event.target.value;
       break;
       
     case 'name':
       handleInputWords(previewFullName, 'Nombre Apellido', event.target.value);
-      renderCard('name', 'event');
+      dataCard.name = event.target.value;
       break;
 
     case 'job':
       handleInputWords(previewJob, 'Front-end developer', event.target.value);
-      renderCard('job', 'event');
+      dataCard.job = event.target.value;
       break;
 
     case 'email':
       handleInputIcons(previewEmail, 'mailto:', event.target.value);
-      renderCard('email', 'event');
+      dataCard.email = event.target.value;
       break;
 
     case 'phone':
         handleInputIcons(previewPhone,'tel:', event.target.value);
-        renderCard('phone', 'event');
+        dataCard.phone = event.target.value;
       break;
 
     case 'linkedin':
       handleInputIcons(previewLinkedin,'https://www.',event.target.value);
-      renderCard('linkedin', 'event');
+      dataCard.linkedin = event.target.value;
       break;
 
     case 'github':
       handleInputIcons(previewGithub,'https://github.com/',event.target.value.replace('@',''));
-      renderCard('github', 'event');
+      dataCard.github = event.target.value;
       break;
   }
   console.log('datacard', dataCard);
   localStorage.setItem('formData', JSON.stringify(dataCard));
 }
 
-function renderCard (item, event) {
-  dataCard.item = event.target.value;
-}
 
 //Evento para todo el contenido de la tarjeta
 containerForm.addEventListener('input', formContent);
