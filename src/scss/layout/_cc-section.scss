@@ -74,12 +74,18 @@
             color: $dark-green-blue;
             padding-left: 15px;
             padding-bottom: 5px;
+            max-height: 3.3ch;
+            max-width: 18ch;
+            overflow: hidden;
         }
 
         .card-jobdesc {
             font: $montserrat_16;
             color: $gunmetal;
             padding-left: 15px;
+            max-height: 3.5ch;
+            max-width: 18ch;
+            overflow: hidden;
         }
     }
 

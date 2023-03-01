@@ -1,17 +1,16 @@
 'use strict';
 
-function handleInputWords (preview, defaultValue, inputValue){
-    if(inputValue === ''){
-        preview.innerHTML = defaultValue;
-    } else {
-        preview.innerHTML = inputValue;
-    }
-};
+function handleInputWords(preview, defaultValue, inputValue) {
+  if (inputValue === '') {
+    preview.innerHTML = defaultValue;
+  } else {
+    preview.innerHTML = inputValue;
+  }
+}
 
-function handleInputIcons (preview, prefix, inputValue){
-    preview.href = `${prefix}${inputValue}`;
-};
-
+function handleInputIcons(preview, prefix, inputValue) {
+  preview.href = `${prefix}${inputValue}`;
+}
 
 //Función manejadora del evento de la tarjeta
 function formContent(event) {
@@ -23,7 +22,7 @@ function formContent(event) {
       selectColor('palette' + event.target.value);
       dataCard.palette = event.target.value;
       break;
-      
+
     case 'name':
       handleInputWords(previewFullName, 'Nombre Apellido', event.target.value);
       dataCard.name = event.target.value;
@@ -40,24 +39,27 @@ function formContent(event) {
       break;
 
     case 'phone':
-        handleInputIcons(previewPhone,'tel:', event.target.value);
-        dataCard.phone = event.target.value;
+      handleInputIcons(previewPhone, 'tel:', event.target.value);
+      dataCard.phone = event.target.value;
       break;
 
     case 'linkedin':
-      handleInputIcons(previewLinkedin,'https://www.',event.target.value);
+      handleInputIcons(previewLinkedin, 'https://www.', event.target.value);
       dataCard.linkedin = event.target.value;
       break;
 
     case 'github':
-      handleInputIcons(previewGithub,'https://github.com/',event.target.value.replace('@',''));
+      handleInputIcons(
+        previewGithub,
+        'https://github.com/',
+        event.target.value.replace('@', '')
+      );
       dataCard.github = event.target.value;
       break;
   }
   console.log('datacard', dataCard);
   localStorage.setItem('formData', JSON.stringify(dataCard));
 }
-
 
 //Evento para todo el contenido de la tarjeta
 containerForm.addEventListener('input', formContent);
