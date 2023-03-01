@@ -64,6 +64,7 @@ function reloadShare() {
   buttonShare.classList.remove('button--share__off');
   shareHiddenTitle.innerHTML = '';
   shareHiddenTitle.classList.remove('margin--title');
+  shareHiddenTitle.classList.remove('error--message');
   hideItems(divTwitter);
 }
 
