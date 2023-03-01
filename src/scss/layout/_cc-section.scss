@@ -12,7 +12,8 @@
     @include tablet {
         width: 40%;
         flex-grow: 1;
-        height: 812px;
+        min-height: 450px;
+        //height: 812px;
         border-radius: 6px;
         padding: 0;   /*Revisión posición imagen*/
     }
@@ -27,7 +28,8 @@
     padding: 0 20px 0 20px;
 
     @include tablet {
-        margin-top: -220px;
+        margin-top: -100px;
+        
     }
 
 }

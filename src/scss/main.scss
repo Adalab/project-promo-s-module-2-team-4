@@ -35,7 +35,16 @@ sans-serif;*/
     @include tablet{
         grid-template-rows: 250px 1fr 60px;
     }
+}
 
+.body--form{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 110px 1fr 110px;
+
+    @include tablet {
+        grid-template-rows: 110px 1fr 60px;
+    }
 }
 
 .container {

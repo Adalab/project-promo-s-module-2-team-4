@@ -61,5 +61,15 @@ function formContent(event) {
   localStorage.setItem('formData', JSON.stringify(dataCard));
 }
 
+function reloadShare() {
+  buttonShare.classList.remove('button--share__off');
+  shareHiddenTitle.innerHTML = '';
+  shareHiddenTitle.classList.remove('margin--title');
+  hideItems(divTwitter);
+}
+
 //Evento para todo el contenido de la tarjeta
 containerForm.addEventListener('input', formContent);
+
+//Evento para que al cambiar algún input vuelva al botón de share por defecto
+containerForm.addEventListener('change', reloadShare);
