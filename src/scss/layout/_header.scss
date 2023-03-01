@@ -1,7 +1,6 @@
 .header{
     padding-top: 70px;
     
-    
     @include tablet{
         padding-top: 150px;
     }
@@ -11,7 +10,6 @@
     }
 
     .images-header {
-        /*width: 100vw;*/
         height: 63px;
         background-image: url(../../assets/images/logo-awesome-profile-cards.svg);
         background-repeat: no-repeat;
@@ -19,7 +17,6 @@
         background-position: 50%;
         
         @include tablet{
-           /* width: 419px;*/
             height: 105px;
             margin: 0 auto;
         }

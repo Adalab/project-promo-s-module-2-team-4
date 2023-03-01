@@ -13,14 +13,8 @@
         width: 40%;
         flex-grow: 1;
         min-height: 450px;
-        //height: 812px;
         border-radius: 6px;
         padding: 0;   /*Revisión posición imagen*/
-    }
-
-    @include desktop {
-        // width: 585px; /*Revisión posición imagen*/
-        // height: 812px;
     }
 }
 
@@ -76,25 +70,18 @@
             color: $dark-green-blue;
             padding-left: 15px;
             padding-bottom: 5px;
-            max-height: 3.3ch;
-            max-width: 18ch;
-            overflow: hidden;
         }
 
         .card-jobdesc {
             font: $montserrat_16;
             color: $gunmetal;
             padding-left: 15px;
-            max-height: 3.5ch;
-            max-width: 18ch;
-            overflow: hidden;
         }
     }
 
     .card-image {
         width: 240px;
         height: 200px;
-        //background-image: url(../../assets/images/preview-card-image.jpeg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;

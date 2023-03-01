@@ -54,17 +54,17 @@ const arrowFillDown = document.querySelector('.js-arrow-fill-down');
 
 const arrowFillUp = document.querySelector('.js-arrow-fill-up');
 
-const contentDesign = document.querySelector(".js-content__design");
+const contentDesign = document.querySelector('.js-content__design');
 
-const contentShare = document.querySelector(".js-content__share");
+const contentShare = document.querySelector('.js-content__share');
 
-const contentFill = document.querySelector(".js-content__fill");
+const contentFill = document.querySelector('.js-content__fill');
 
-const legendDesign = document.querySelector(".js-legend__design");
+const legendDesign = document.querySelector('.js-legend__design');
 
-const legendFill = document.querySelector(".js-legend__fill");
+const legendFill = document.querySelector('.js-legend__fill');
 
-const legendShare = document.querySelector(".js-legend__share");
+const legendShare = document.querySelector('.js-legend__share');
 
 const buttonTwitter = document.querySelector('.js-button-twitter');
 
@@ -74,7 +74,7 @@ const shareHiddenTitle = document.querySelector('.js--share__hidden_title');
 
 const shareHiddenLink = document.querySelector('.js--share__link');
 
-const header = document.getElementById("header");
+const header = document.getElementById('header');
 
 let dataCard = {
   palette: '1',

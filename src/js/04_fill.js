@@ -15,7 +15,6 @@ function handleInputIcons(preview, prefix, inputValue) {
 //Función manejadora del evento de la tarjeta
 function formContent(event) {
   event.preventDefault();
-  // const value = event.target.value;
 
   switch (event.target.name) {
     case 'palette':
