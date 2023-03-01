@@ -71,5 +71,5 @@ function reloadShare() {
 //Evento para todo el contenido de la tarjeta
 containerForm.addEventListener('input', formContent);
 
-//Evento para que al cambiar algún input vuelva al botón de share por defecto
+//Evento para que al cambiar algún input vuelva al botón de share por defecto (naranja)
 containerForm.addEventListener('change', reloadShare);
